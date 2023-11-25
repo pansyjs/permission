@@ -1,0 +1,29 @@
+{
+  "name": "@pansy/permission",
+  "version": "0.0.0",
+  "description": "权限验证能力",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "keywords": [],
+  "author": "wangxingkang",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.2",
+    "vitest": "^0.34.6"
+  }
+}
